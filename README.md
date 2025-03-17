@@ -2,7 +2,7 @@
 
 ## 📌 Descrição
 
-Este é um projeto de automação residencial completo, utilizando **STM32, Python, PostgreSQL e Laravel** para monitoramento e controle remoto de diversos sistemas em uma casa. O objetivo é permitir a gestão de dispositivos como bombas d'água, iluminação, sensores de umidade, temperatura, consumo elétrico e muito mais, através de um painel web acessível remotamente.
+Este é um projeto de automação residencial completo, para monitoramento e controle remoto de diversos sistemas em uma casa. O objetivo é permitir a gestão de Uma aquaponia, um pomar, aquário e partes residenciais como iluminação, consumo elétrico, hidráulico e muito mais, através de um painel web acessível remotamente e posteriormente por Aplicativo.
 
 ## 🖥️ Hardware Utilizado
 
