@@ -7,7 +7,7 @@ Este é um projeto de automação residencial completo, utilizando **STM32, Pyth
 ## 🖥️ Hardware Utilizado
 
 - **Mini-PC Lenovo M910q**
-- **STM32** para leitura de sensores e acionamento de atuadores
+- **STM32 F411CEU6 (Black Pill)** para leitura de sensores e acionamento de atuadores
 - **Sensores**:
   - DS18B20 (temperatura da água)
   - DHT22 (temperatura e umidade ambiente)
@@ -20,16 +20,17 @@ Este é um projeto de automação residencial completo, utilizando **STM32, Pyth
   - Relés para controle de bombas, iluminação e dispensador de ração
   - Válvulas solenóides para irrigar o pomar
 - **Conectividade**:
-  - Wi-Fi (ESP32 comunica-se com backend via MQTT/WebSocket)
+  - Par trançado de cabo de rede para sensores com STM32
+  - USB de STM32 para Mini-PC
   - Mini-PC configurado para acesso remoto
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Backend**: Laravel (PHP) para API e painel web com Vue
+- **Backend**: Laravel (PHP) para API e painel web com Vue (Posteriormente aplicativo como alternativa ao painel)
 - **Banco de Dados**: PostgreSQL
 - **Microservices**: Python para comunicação com sensores e controle de dispositivos
 - **Comunicação**:
-  - MQTT (para troca de mensagens entre ESP32 e backend)
+  - MQTT (para troca de mensagens entre STM32 e backend)
   - WebSockets (para atualização em tempo real do painel Laravel)
 - **Servidor Web**: Nginx
 - **Gerenciamento de processos**: systemd + Supervisor
